@@ -1,0 +1,4 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <drawable name="progress_bar_bg">@color/colorAccent</drawable>
+
+</resources>

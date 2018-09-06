@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/SlideRightAnimation
+        </item>
+        <item name="android:buttonStyle">@android:style/Widget.Button.Small
+        </item>
+        <!--AlertDialog样式-->
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <!--<item name="android:windowBackground">@color/transparent_bg</item>-->
+        <!--返回键样式-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+    </style>
+
+    <style name="AppTheme"
+        parent="AppTheme.Base"/>
+
+    <style name="MainTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+    <style name="AlertDialogCustom"
+        parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.DrawerArrowToggle"
+        parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/textTitleColor</item>
+    </style>
+
+    <style name="AppTheme.Launcher"
+        parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/start</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Toolbar.TitleText"
+        parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/big_small_text</item>
+        <item name="android:textColor">@color/textGreenColor</item>
+    </style>
+
+</resources>

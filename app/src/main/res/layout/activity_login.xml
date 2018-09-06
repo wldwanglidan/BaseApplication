@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ImageButton
+            android:id="@+id/ibtClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:src="@drawable/ibt_finish_login"
+            android:background="?attr/selectableItemBackground"/>
+
+        <com.example.lily.baseframeapplication.view.widget.ClearEditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:paddingTop="57dp"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:hint="@string/hint_phone"
+            android:textColorHint="@color/textColorHint"
+            android:background="@null"
+            android:textColor="@color/textContentColor"
+            android:textSize="@dimen/small_text"
+            android:cursorVisible="true"
+            android:focusableInTouchMode="true"
+            android:inputType="number"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:textCursorDrawable="@null"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginRight="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:background="@color/divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:orientation="horizontal">
+
+            <com.example.lily.baseframeapplication.view.widget.ClearEditText
+                android:id="@+id/etVerificationCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="35dp"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:hint="@string/hint_verification_code"
+                android:textColorHint="@color/textColorHint"
+                android:background="@null"
+                android:textColor="@color/textContentColor"
+                android:textSize="@dimen/small_text"
+                android:cursorVisible="true"
+                android:focusableInTouchMode="true"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:textCursorDrawable="@null"/>
+
+            <Button
+                android:id="@+id/btnSendCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:layout_marginTop="26dp"
+                android:layout_marginBottom="10dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_send_code_bg"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:textSize="@dimen/micro_text"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

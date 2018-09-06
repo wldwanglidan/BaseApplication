@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BaseFrameApplication</string>
+    <!-- 异常描述 -->
+    <string name="error_unknown">系统繁忙</string>
+    <string name="request_timeout">网络连接超时，请重试</string>
+    <string name="no_network">当前网络不可用，请检查网络后重试</string>
+    <string name="error_gson_parse_error">Json 解析异常</string>
+    <string name="error_system_error">系统繁忙</string>
+    <string name="error_encrypt">加解密失败</string>
+    <string name="error_login_timeout">登录失效，请重新登录</string>
+
+    <!-- 暂无数据相关描述 -->
+    <string name="empty_string_default">暂无数据~</string>
+    <string name="common_loading_message">Loading...</string>
+    <string name="common_loading_message1">加载中...</string>
+    <string name="common_empty_msg">糟糕，无法解析数据\ n请点击屏幕，然后重试〜</string>
+    <string name="common_error_msg">服务器开小差了,点击屏幕刷新一下吧</string>
+    <string name="common_no_network_msg">网络不稳定</string>
+    <string name="perfection_tips">功能完善,敬请期待\nfunction improving and coming soon</string>
+    <string name="load_ing">加载中...</string>
+
+    <!-- 版本更新 -->
+    <string name="system_download_component_disable">下载服务不可用,请您启用</string>
+    <string name="system_download_description">版本更新</string>
+    <string name="update_querying">检查版本更新</string>
+    <string name="update_waiting">更新中，请稍候…</string>
+    <string name="update">软件升级</string>
+    <string name="has_load_success">已经下载好啦，是否马上安装</string>
+    <string name="update_updateverify">新版本: %1$s\n%2$s</string>
+    <string name="update_do">立即更新</string>
+    <string name="update_err_noupdateinfo">网络出错</string>
+    <string name="update_noneedupdate">当前即为最新版本</string>
+    <string name="update_noneedupdate_confirm">朕知道了</string>
+    <string name="setting_update">检查更新</string>
+    <string name="download_waiting">T钱包——正在下载…</string>
+    <string name="download_err_replay">下载失败，请重新下载</string>
+    <string name="cancel">稍后更新</string>
+    <string name="install_right_now">立即安装</string>
+    <string name="loading">数据加载中,请稍候&#8230;</string>
+    <string name="is_downloading">正在下载中，请稍后</string>
+    <string name="double_click_exit">再按一次退出</string>
+
+    <string name="resend_verification_code">重新获取</string>
+    <string name="re_verification">%1$ss</string>
+
+    <!--登录/注册-->
+    <string name="hint_phone">请输入手机号</string>
+    <string name="hint_verification_code">请输入验证码</string>
+    <string name="phone_cannot_be_empty">请输入正确的手机号!</string>
+    <string name="hint_graph_verification_code">请输入图形验证码</string>
+    <string name="verification_code_cannot_be_empty">请输入验证码!</string>
+    <string name="graph_verification_code_cannot_be_empty">请输入图形验证码!</string>
+    <string name="loginIng">登录中...</string>
+    <string name="loginSuccess">登录成功!</string>
+    <string name="bindPhoneIng">绑定中...</string>
+    <string name="sendSmsIng">发送验证码中...</string>
+    <string name="sendSmsSuccess">发送验证码成功!</string>
+    <string name="bindPhoneSuccess">绑定成功!</string>
+    <string name="sendVerificationCodeSuccess">发送验证码成功!</string>
+    <string name="cs">测试</string>
+
+</resources>

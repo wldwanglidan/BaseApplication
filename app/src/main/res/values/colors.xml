@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cpb_default_color">#33b5e5</color>
+    <dimen name="cpb_default_stroke_width">4dp</dimen>
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <integer name="cpb_default_max_sweep_angle">300</integer>
+    <item name="cpb_default_sweep_speed"
+        format="float"
+        type="string">1
+    </item>
+    <item name="cpb_default_rotation_speed"
+        format="float"
+        type="string">1
+    </item>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="textTitleColor">#2e2e2e</color>
+    <color name="White">#fff</color>
+    <color name="textRightColor">#4EA2FF</color>
+    <color name="divider">#eaeaea</color>
+
+
+    <color name="textContentColor">#1E2E47</color>
+    <color name="line1">#d5d5d5</color>
+    <color name="textColorHint">#CBCED3</color>
+    <color name="textGreenColor">#E3BF7C</color>
+    <color name="bottom_bar_bg">#1E2E47</color>
+
+</resources>

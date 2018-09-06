@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="@dimen/medium_text"
+        android:textColor="@color/White"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/guide_ll_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_welcome_guide_go"
+        android:text="立即开启"
+        android:padding="6dp"
+        android:visibility="gone"
+        android:textSize="@dimen/small_text"
+        android:textColor="#57A1ED"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageButton
+        android:id="@+id/ibtClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="24dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ibt_welcome_guide_close"/>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/White">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tvWxFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="18dp"
+                android:drawableTop="@drawable/ic_wx_friends"
+                android:textSize="@dimen/micro_text"
+                android:text="微信好友"/>
+
+            <TextView
+                android:id="@+id/tvCircleFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawablePadding="18dp"
+                android:drawableTop="@drawable/ic_circle_friends"
+                android:textSize="@dimen/micro_text"
+                android:text="朋友圈"/>
+
+            <TextView
+                android:id="@+id/tvWb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawablePadding="18dp"
+                android:drawableTop="@drawable/ic_wb"
+                android:textSize="@dimen/micro_text"
+                android:text="新浪微博"/>
+
+            <TextView
+                android:id="@+id/tvQzone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="18dp"
+                android:drawableTop="@drawable/ic_qzone"
+                android:textSize="@dimen/micro_text"
+                android:text="QQ空间"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingTop="23dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:textColor="#878E97"
+            android:textSize="@dimen/big_small_text"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>
