@@ -2,28 +2,22 @@ package com.example.lily.baseframeapplication.ui.home;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import butterknife.Unbinder;
 import com.example.lily.baseframeapplication.R;
 import com.example.lily.baseframeapplication.base.BaseFragment;
 import com.example.lily.baseframeapplication.manager.UserManager;
 import com.example.lily.baseframeapplication.model.GlobalParams;
-import com.example.lily.baseframeapplication.utils.IdCardValidator;
-import com.example.lily.baseframeapplication.utils.ToastUtils;
 
 /**
  * Created by lily on 2017/11/16.
  */
 
 public class HomeFragment extends BaseFragment {
-    @BindView(R.id.etId) EditText mEdtId;
+
     Unbinder unbinder;
     private GlobalParams mGlobalParams;
 
@@ -66,23 +60,17 @@ public class HomeFragment extends BaseFragment {
         super.onDestroyView();
     }
 
-    @OnClick({ R.id.btnId})
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.btnId:
-                AddBank();
-                break;
-        }
-    }
+    //@OnClick({ R.id.btnId})
+    //public void onClick(View view) {
+    //    switch (view.getId()) {
+    //        case R.id.btnId:
+    //            AddBank();
+    //            break;
+    //    }
+    //}
 
 
     private void AddBank() {
-        String id = mEdtId.getText().toString().trim();
-        if (IdCardValidator.isValidatedAllIdcard(id)==false) {
-            ToastUtils.showLongToast("身份证不正确");
-            return;
-        }
-        Log.d("IdCardValidator","id is"+IdCardValidator.isValidatedAllIdcard
-                (id));
+
     }
 }
